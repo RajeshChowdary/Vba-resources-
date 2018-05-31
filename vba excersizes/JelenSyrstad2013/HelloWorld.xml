@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.0" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:type="TaskPaneApp">
+  <Id>60b8f966-a882-49f0-8f13-fadf60d225a7</Id>
+  <Version>1.0</Version>
+  <ProviderName>MrExcel.com</ProviderName>
+  <DefaultLocale>EN-US</DefaultLocale>
+  <DisplayName DefaultValue="Hello World"/>
+  <Description DefaultValue="My first app."/>
+ <!-- <IconUrl DefaultValue=
+    "http://officeimg.vo.msecnd.net/_layouts/images/general/office_logo.jpg"/> -->
+<IconUrl DefaultValue="\\YourNetwork\JelenSyrstad2013\mrexcellogo.jpg"/>
+  <Capabilities>
+    <Capability Name="Document"/>
+    <Capability Name="Workbook"/>
+  </Capabilities>
+
+  <DefaultSettings>
+    <SourceLocation DefaultValue="\\YourNetwork\JelenSyrstad2013\HelloWorld\HelloWorld.html"/>
+  </DefaultSettings>
+  <Permissions>ReadWriteDocument</Permissions>
+</OfficeApp>

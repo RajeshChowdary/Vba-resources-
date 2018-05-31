@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.0" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:type="TaskPaneApp">
+  <Id>cd18cd52-3bf6-46ef-bea7-28de856ac75e</Id>
+  <Version>1.0</Version>
+  <ProviderName>MrExcel.com</ProviderName>
+  <DefaultLocale>EN-US</DefaultLocale>
+  <DisplayName DefaultValue="BMI Calculator"/>
+  <Description DefaultValue="Calculate your BMI"/>
+  <!--<IconUrl DefaultValue=
+    "http://officeimg.vo.msecnd.net/_layouts/images/general/office_logo.jpg"/> -->
+<IconUrl DefaultValue="\\YourNetwork\JelenSyrstad2013\mrexcellogo.jpg"/>
+  <Capabilities>
+    <Capability Name="Document"/>
+    <Capability Name="Workbook"/>
+  </Capabilities>
+
+  <DefaultSettings>
+    <SourceLocation DefaultValue="\\YourNetwork\JelenSyrstad2013\BMIprogram\Calculate BMI.html"/>
+  </DefaultSettings>
+  <Permissions>ReadWriteDocument</Permissions>
+</OfficeApp>
